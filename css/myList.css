@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 公共 */
+* {margin:0px; padding:0px; border:0px; 
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {-ms-touch-action: none;}
+img {vertical-align: top;}
+body{padding:0px;margin:0px; font-family: "微软雅黑"; font-size: 14px; border: 0px; background:#ccc;}
+li {list-style:none;}
+a{color:#000; text-decoration:none;}
+.m_clear{zoom:1;}
+.m_clear:after{content:"";display:block;clear:both;}
+.m_porR {position: relative;}
+.m_porA {position: absolute;}
+.m_fl {float:left;}
+.m_fr {float:right;}
+.m_db {display: block;}
+.m_dn {display:none;}
+.m_oh,body {overflow:hidden;}
+.m_w100,.wrapper {width:100%;}
+.m_h100 {height:100%;}
+.m_mAuto {margin: 0 auto;}
+.m_tac {text-align:center;}
+.m_bgn,.orderArea input,.orderAreaSub,.oASel {background:none;}
+.m_oN {opacity:0;}
+.cfff {color:#fff;}
+.c7b4f1a {color:#7b4f1a;}
+.c382a04 {color:#382a04;}
+.cf00 {color:#f00;}
+.m_fs10 {font-size:10px;}
+.m_fs12 {font-size:12px;}
+.m_fs14 {font-size:14px;}
+.m_fs16 {font-size:16px;}
+.m_ts1 {-webkit-transition: all ease 1s;}
+
+.legend {z-index:2;font-size:0px;}
+
+.oRoateBtn,.oRoateListBtn {/*background:rgba(0, 0, 0, 0.3);*/z-index:99;}
+
+
+
+/* Styled scrollbars */
+
+.iScrollVerticalScrollbar {
+	position: absolute;
+	z-index: 9999;
+	width: 4px;
+	bottom: 2px;
+	top: 2px;
+	right: 20px;
+	overflow: hidden;
+	background: #5ed8ea;
+}
+
+.iScrollVerticalScrollbar.iScrollBothScrollbars {
+	bottom: 18px;
+}
+
+.iScrollVerticalScrollbar .iScrollIndicator {
+	width: 100%;
+	background: #2c95a4;
+}
+
+
+/* end */
+.iscrollWrap {
+	z-index: 1;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.scroller {
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+.scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+.scroller li {
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
